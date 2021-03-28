@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="" />
+    <title>PMDD Support India Official Website</title>
+    <meta name="description" content="PMDD Support India - Forums, Resources, Support and Advice">
+    <link rel="stylesheet" href="contact-style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+	<header>
+		<div id="logo"><img src="/assets/PMDDSupport.jpg">PMDD&nbsp;Support India</div>
+		<nav>  
+			<ul>
+                <li><a href="index.html">Home</a>
+				<li><a href="Login.html">Register/Login</a>
+				<li><a href="Resources.html">Resources</a>
+				<li><a href="Support.html">Seek Support</a>
+				<li><a href="Contact.html">Help Us</a>
+			</ul>
+		</nav>
+	</header>
+	<section>
+        <form action="Support.php" method="post">
+            <div class="elem-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="visitor_name" placeholder="Jane Doe" pattern=[A-Z\sa-z]{3,20} required>
+            </div>
+            <div class="elem-group">
+              <label for="email">Your E-mail</label>
+              <input type="email" id="email" name="visitor_email" placeholder="jane.doe@email.com" required>
+            </div>
+            <div class="elem-group">
+              <label for="department-selection">Choose Concern</label>
+              <select id="department-selection" name="concerned_department" required>
+                  <option value="">Select a Concern</option>
+                  <option value="More Info">Request More Information</option>
+                  <option value="Assistance">Counselling </option>
+                  <option value="Technical Support">Technical Support</option>
+                  <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="elem-group">
+              <label for="title">Reason For Contacting Us</label>
+              <input type="text" id="title" name="email_title" required placeholder="Please Enter Subject" pattern=[A-Za-z0-9\s]{8,60}>
+            </div>
+            <div class="elem-group">
+              <label for="message">Write your message</label>
+              <textarea id="message" name="visitor_message" placeholder="Say whatever you want." required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+	</section>
+    <article> Feel free to contact us if you require any help. Please enter your contact details in the form above and we will respond soon via e-mail.</article>
+	</section>
+	<footer>
+		<p>&copy; This website is licensed under the  MIT License. Feel free to copy, modify and republish this website template.</p>
+	</footer>
+
+
+</body>
+
+</html>
